@@ -1,14 +1,47 @@
 # RGC Admin Tool
 ## Инструменты от RGC
 
-Приложение, разработанное на языке JPHP, командой [RGC] RAGNAROK COMMUNITY, содержит в себе инструменты для редактирования конфигов Dayz.
+Приложение, разработанное на языке JPHP, командой [RGC] RAGNAROK COMMUNITY, содержит в ебе инструменты для редактирования конфигов Dayz.
 
-- Авто-обноление программы
-- Гибкая настройка конфигов
-- ✨Стильный UX дизайн
+- Авто-обноление программы ✨
+- Гибкая настройка конфигов ✨
+- Стильный UX дизайн ✨
 
-## Особенности
+## Установка
 
-- Загружайте конфиги легко и быстро
-- Самые популярные модификации!
-- Получайте обновления на GitHub!
+Для работы приложения, для .jar версии, потребуется [JAVA] (https://www.java.com/ru/) 
+Установите зависимости и запустите приложение
+
+## Плагины
+
+| Плагины | README |
+| ------ | ------ |
+| HotKey 1.0.0 | php\desktop\HotKeyManager |
+| 2D Game | Game2DBundle |
+| HTTP Client | HTTP Клиент |
+| Jsoup | Парсер HTML (модульный компонент) |
+| Mailer | Отправитель писем (модульный компонент) |
+| MySQL | MySQL клиент |
+| Material UI | Новые Material UI компоненты |
+| System Tray | Трей иконка (модульный компонент) |
+| ZIP | ZipFileScript (модульный компонент) |
+| RichText | UXRichTextArea |
+| Updater | AbstractUpdater - Абстрактный класс для сервиса обновлений |
+| Windows | Плагин для взаимодействия с Windows |
+
+## Модуль Загрузки
+Модуль загрузки приложения, стартовый модуль подгрузки компонентов.
+
+
+
+```sh
+namespace app\modules;
+use bundle\updater\$GitHubUpdater;
+use std, gui, framework, app;
+
+class AppModule extends AbstractModule
+```
+Событие
+```sh
+    function doAction(ScriptEvent $e = null) //Появление модуля
+```
