@@ -1,7 +1,7 @@
 # RGC Admin Tool
 ## Инструменты от RGC
 
-Приложение, разработанное на языке JPHP, командой [RGC] RAGNAROK COMMUNITY, содержит в себе инструменты для редактирования конфигов Dayz.
+Приложение, разработанное на языке PHP, командой [RGC] RAGNAROK COMMUNITY, содержит в себе инструменты для редактирования конфигов Dayz.
 
 - Авто-обновление программы ✨
 - Гибкая настройка конфигов ✨
@@ -16,7 +16,7 @@
 
 | Плагины | README |
 | ------ | ------ |
-| HotKey 1.0.0 | php\desktop\HotKeyManager |
+| HotKey 1.0.0 | Функция горячих клавиш |
 | 2D Game | Game2DBundle |
 | HTTP Client | HTTP Клиент |
 | Jsoup | Парсер HTML (модульный компонент) |
@@ -44,4 +44,10 @@ class AppModule extends AbstractModule
 Событие
 ```sh
 function doAction(ScriptEvent $e = null) //Появление модуля
+```
+
+##Sound
+Поток мультиплеера, в модуле start
+```sh
+general1
 ```
