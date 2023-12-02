@@ -46,7 +46,7 @@ class AppModule extends AbstractModule
 function doAction(ScriptEvent $e = null) //Появление модуля
 ```
 
-##Sound
+## Sound
 
 Поток мультиплеера, в модуле start
 ```sh
