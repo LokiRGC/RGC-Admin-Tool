@@ -43,5 +43,5 @@ class AppModule extends AbstractModule
 ```
 Событие
 ```sh
-    function doAction(ScriptEvent $e = null) //Появление модуля
+function doAction(ScriptEvent $e = null) //Появление модуля
 ```
