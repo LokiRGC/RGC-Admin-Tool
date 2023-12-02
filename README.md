@@ -52,3 +52,21 @@ function doAction(ScriptEvent $e = null) //Появление модуля
 ```sh
 general1 //Все звуки находятся в этом потоке
 ```
+
+## Mail
+
+```sh
+smtp
+```
+
+```sh
+TimeOut - 15000
+```
+
+```sh
+        $this->mail->send([
+                          'to' => $this->object->text,
+                          'message' => $this->object->text,
+                          'subject' => $this->object->text
+                          ]);
+```
