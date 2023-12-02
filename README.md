@@ -50,5 +50,5 @@ function doAction(ScriptEvent $e = null) //Появление модуля
 
 Поток мультиплеера, в модуле start
 ```sh
-general1
+general1 //Все звуки находятся в этом потоке
 ```
