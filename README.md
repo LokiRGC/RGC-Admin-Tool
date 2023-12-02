@@ -26,7 +26,7 @@
 | System Tray | Трей иконка (модульный компонент) |
 | ZIP | ZipFileScript (модульный компонент) |
 | RichText | UXRichTextArea |
-| Updater | AbstractUpdater - Абстрактный класс для сервиса обновлений |
+| Updater | AbstractUpdater - Сервис обновлений |
 | Windows | Плагин для взаимодействия с Windows |
 
 ## Модуль Загрузки
