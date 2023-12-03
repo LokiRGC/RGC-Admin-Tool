@@ -74,8 +74,8 @@ TimeOut - 15000
 ## Сброс настроек
 Для удаления всех настроек приложения, удалите следующие файлы в корне программы: 
 ```sh
-Addition.ini
-RadZone.ini
-Console.ini
-Settings.ini
+./Addition.ini
+./RadZone.ini
+./Console.ini
+./Settings.ini
 ```
