@@ -70,3 +70,12 @@ TimeOut - 15000
                           'subject' => $this->object->text
                           ]);
 ```
+
+## Сброс настроек
+Для удаления всех настроек приложения, удалите следующие файлы: 
+```sh
+Addition.ini
+RadZone.ini
+Console.ini
+Settings.ini
+```
