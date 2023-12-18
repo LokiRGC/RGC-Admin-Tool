@@ -78,4 +78,5 @@ TimeOut - 15000
 ./RadZone.ini
 ./Console.ini
 ./Settings.ini
+./Database.ini
 ```
